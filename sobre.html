@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>projetoFrontEnd</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="img/icone_2.png" type="image/x-icon">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- *************************************************
+     ************ INÍCIO DO MENU SUPERIOR *************-->
+    <nav class="navbar fixed-top navbar-expand-lg bg-danger-subtle" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand me-5" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"
+                    fill="currentColor" class="bi bi-mortarboard-fill me-2" viewBox="0 0 16 16">
+                    <path
+                        d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z" />
+                    <path
+                        d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z" />
+                </svg>
+                WillianCursos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html"><i class="bi bi-houses"></i>
+                            Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="cursos.html"><i class="bi bi-mortarboard-fill"></i>
+                            Cursos</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categoria
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="bi bi-mortarboard-fill"></i> Informática</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="bi bi-mortarboard-fill"></i> Eletrônica</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="bi bi-mortarboard-fill"></i> Programação de
+                                    Computadores</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="" href="sobre.html"><i class="bi bi-window-fullscreen"></i>
+                            Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="contatos.html"><i
+                                class="bi bi-envelope-arrow-down"></i> Contato</a>
+                    </li>
+                </ul>
+
+
+                <!--***********************************************
+                 ******  MENU PARA O LADO DIREITO **************-->
+                <ul class="navbar-nav ms-auto mx-5">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"><button class="btn btn-success me-2"><i
+                                    class="bi bi-database-fill-lock"></i>
+                                cadastrar</button></a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="bi bi-person-fill-lock"></i> Login</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right"></i> Logout</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--************** FINAL DO MENU SUPERIOR *************->
+
+
+
+    <!-*******************************************************
+     ************************ SOBRE NÓS *******************-->
+    <div class="row justify-content-center sobreNos">
+        <div class="col-4">
+             <h1 class="text-center">SOBRE NÓS</h1>  
+        </div>
+        <div class="col-4">  
+            <div class="clearfix sobre">
+                
+                <!--   <br>
+                <img src="img/empresa_1.jpg" class="col-md-6 float-md-end mb-3 ms-md-3 img-fluid" alt="..."> -->
+
+                <p>
+                    Somos uma equipe apaixonada por tecnologia, inovação e desenvolvimento de soluções que fazem a
+                    diferença no
+                    dia a dia das pessoas. Nosso objetivo é transformar ideias em projetos reais, unindo criatividade,
+                    qualidade
+                    e eficiência em cada detalhe.
+                </p>
+
+                <p>
+                    Acreditamos que a tecnologia é uma ferramenta poderosa para conectar pessoas, resolver problemas e
+                    criar
+                    novas oportunidades. Por isso, buscamos constantemente evoluir, aprendendo novas ferramentas,
+                    metodologias e
+                    tendências do mercado para oferecer sempre o melhor.
+                </p>
+
+                <p>
+                    Trabalhamos com dedicação, responsabilidade e foco no cliente, valorizando a transparência, a
+                    colaboração e
+                    o compromisso com resultados. Cada projeto é tratado de forma única, respeitando as necessidades e
+                    objetivos
+                    de quem confia em nosso trabalho.
+                    <br />
+                    Mais do que desenvolver soluções, queremos construir experiências que gerem impacto positivo e
+                    duradouro.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!---- ********************* *************************
+    ** ************************ FOOTER ****************-->
+    <footer class="bg-dark text-light mt-5 pt-5 pb-3">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- SOBRE -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold">WillianCursos</h5>
+                    <p>
+                        Plataforma de cursos voltada para capacitação em tecnologia,
+                        informática e programação.
+                    </p>
+                </div>
+
+                <!-- LINKS -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold">Links rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-light">Início</a></li>
+                        <li><a href="#cursos" class="text-decoration-none text-light">Cursos</a></li>
+                        <li><a href="sobre.html" class="text-decoration-none text-light">Sobre</a></li>
+                        <li><a href="contatos.html" class="text-decoration-none text-light">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- REDES SOCIAIS -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold">Siga-nos</h5>
+                    <a href="#" class="text-light me-3 fs-4"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-light me-3 fs-4"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-light me-3 fs-4"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-light fs-4"><i class="bi bi-whatsapp"></i></a>
+                </div>
+
+            </div>
+
+            <hr class="border-light">
+
+            <!-- COPYRIGHT -->
+            <div class="text-center">
+                <p class="mb-0">© 2026 WillianCursos - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+    <!--************************ FINAL DO FOOTER *******************-->
+
+</body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="node_modules/popper.js/dist/popper.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
+
+</html>

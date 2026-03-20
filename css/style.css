@@ -1,0 +1,75 @@
+.textoPesquisa {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+/* CONFIGURAÇÃO DA PAGINA -INDEX CURSOS*/
+.escolhaCurso {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.Todoscursos{
+    margin-top: 30px;
+}
+
+
+.cursos P{
+   margin-top: 70px; 
+}
+
+
+.cursos {
+    text-align: justify;
+}
+
+
+/* CONFIGURAÇÃO DA PÁGINA CURSOS*/
+
+.cursos, .videoCurso{
+    margin-top: 100px;
+}
+
+
+/* CONFIGURAÇÃ DA PAGINA SOBRE NÓS */
+
+.sobreNos {
+ margin-top: 150px;
+}
+
+
+.textos {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* CONFIGURAÇÃO DA PÁGINA CURSOS*/
+h1, .cursos{
+    margin-top: 50px;
+}
+
+.videoCurso{
+    margin-top: 30px;
+}
+
+
+/*  ESTILO PARA O BOTÃO FLUTUANTE - WATHSAPP */
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+
