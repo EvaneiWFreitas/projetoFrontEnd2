@@ -18,44 +18,38 @@
     margin-top: 30px;
 }
 
-
 .cursos P{
    margin-top: 70px; 
 }
-
 
 .cursos {
     text-align: justify;
 }
 
 
-/* CONFIGURAÇÃO DA PÁGINA CURSOS*/
-
+/* CONFIGURAÇÃO DA PÁGINA CURSO*/
 .cursos, .videoCurso{
-    margin-top: 100px;
+    margin-top: 70px;
+}
+
+.curso {
+ margin-top: 20px;
+}
+
+.videoCurso{
+    margin-top: 30px;
 }
 
 
-/* CONFIGURAÇÃ DA PAGINA SOBRE NÓS */
-
+/* CONFIGURAÇÃ DA PAGINA SOBRE-NOS */
 .sobreNos {
- margin-top: 150px;
+ margin-top: 100px;
 }
-
 
 .textos {
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
-}
-
-/* CONFIGURAÇÃO DA PÁGINA CURSOS*/
-h1, .cursos{
-    margin-top: 50px;
-}
-
-.videoCurso{
-    margin-top: 30px;
 }
 
 
