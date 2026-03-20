@@ -7,6 +7,11 @@
     font-size: 20px;
 }
 
+/* CONFIGURAÇÃO DA PAGINA -INDEX CAROCEL IMG*/
+.slide{
+    margin-top: 30px;
+}
+
 /* CONFIGURAÇÃO DA PAGINA -INDEX CURSOS*/
 .escolhaCurso {
     text-align: center;
