@@ -8,7 +8,7 @@
 }
 
 /* CONFIGURAÇÃO DA PAGINA -INDEX CAROCEL IMG*/
-.slide{
+.slide {
     margin-top: 30px;
 }
 
@@ -19,12 +19,12 @@
     font-size: 20px;
 }
 
-.Todoscursos{
+.Todoscursos {
     margin-top: 30px;
 }
 
-.cursos P{
-   margin-top: 70px; 
+.cursos P {
+    margin-top: 70px;
 }
 
 .cursos {
@@ -33,22 +33,30 @@
 
 
 /* CONFIGURAÇÃO DA PÁGINA CURSO*/
-.cursos, .videoCurso{
+.cursos,
+.videoCurso {
     margin-top: 70px;
 }
 
 .curso {
- margin-top: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px;
 }
 
-.videoCurso{
+.videoCurso {
     margin-top: 30px;
 }
 
 
 /* CONFIGURAÇÃ DA PAGINA SOBRE-NOS */
 .sobreNos {
- margin-top: 100px;
+    margin-top: 100px;
+}
+
+.sobre{
+    text-align: justify;
+    padding: 10px;
 }
 
 .textos {
@@ -67,8 +75,3 @@
     width: 60px;
     height: 60px;
 }
-
-
-
-
-
