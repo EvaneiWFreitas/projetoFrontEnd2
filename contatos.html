@@ -77,13 +77,12 @@
 
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="#"><i class="bi bi-person-fill-lock"></i> Login</a>
+                <button class=" btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"><i
+                    class="bi bi-person-fill-lock"></i> Login</button>
               </li>
               <li>
-                <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right"></i> Logout</a>
-              </li>
-              <li>
-                <hr class="dropdown-divider" />
+                <button class=" btn btn-danger w-100 mt-1" href="#"><i class="bi bi-box-arrow-right"></i>
+                  Logout</button>
               </li>
             </ul>
           </li>
@@ -108,51 +107,59 @@
   <!-- **********  FORMULÁRIO DE CONTATO ******************************* ********************************************************************-->
   <div class="container">
 
-    <h2 class="text-center mb-5 entreEmContato">ENTRE EM CONTATO</h2>
+    <h2 class="text-center mb-5 entreEmContato">
+      <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor"
+        class="bi bi-chat-right-dots-fill" viewBox="0 0 16 16">
+        <path
+          d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
+      </svg> ENTRE EM CONTATO
+    </h2>
 
     <div class="row">
-      <div class=" container-fluid col-lg-12 w-75">
+      <div class=" container-fluid col-md-6 col-lg-4 w-75">
         <form class="form-control" action="" method="post">
 
           <div class="mb-3">
             <label for="nome" class="form-label">Nome:</label>
-            <input type="text" name="nome" class="form-control w-100" id="" placeholder="Digite seu nome">
+            <input type="text" name="nome" class="form-control w-100" id="nome" placeholder="Digite seu nome">
           </div>
 
           <div class="mb-3">
             <label for="endereco" class="form-label">Endereço:</label>
-            <input type="text" name="endereco" class="form-control w-100" id="" placeholder="Digite seu endreço">
+            <input type="text" name="endereco" class="form-control w-100" id="endereco"
+              placeholder="Digite seu endreço">
           </div>
 
           <div class="mb-3">
             <label for="bairro" class="form-label">Bairro:</label>
-            <input type="text" name="bairro" class="form-control w-100" id="" placeholder="Digite seu bairro">
+            <input type="text" name="bairro" class="form-control w-100" id="bairro" placeholder="Digite seu bairro">
           </div>
 
           <div class="mb-3">
             <label for="telefone" class="form-label">Telefone:</label>
-            <input type="text" name="telefone" class="form-control w-100" id="" placeholder="Digite seu telefone">
+            <input type="text" name="telefone" class="form-control w-100" id="telefone"
+              placeholder="Digite seu telefone">
           </div>
 
           <div class="mb-3">
-            <label for="email" class="form-label">E-mail:</label>
-            <input type="email" name="email" class="form-control w-100" id="" placeholder="Digite seu email">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" name="email" class="form-control w-100" id="email" placeholder="Digite seu email">
           </div>
 
           <div class="mb-3">
             <label for="cidade" class="form-label">Cidade:</label>
-            <input type="text" name="cidade" class="form-control w-100" id="" placeholder="Digite sua cidade">
+            <input type="text" name="cidade" class="form-control w-100" id="cidade" placeholder="Digite sua cidade">
           </div>
 
           <div class="mb-3">
             <label for="mensagem" class="form-label">Mensagem:</label>
-            <textarea class="form-control w-100" name="mensagem" id="" rows="3">
-            </textarea>
+            <textarea class="form-control w-100" name="mensagem" id="mensagem" rows="3">
+              </textarea>
           </div>
 
           <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Receber notificações por email</label>
+            <input type="checkbox" class="form-check-input" id="receberNotificacao">
+            <label class="form-check-label" for="receberNotificacao">Receber notificações por email</label>
           </div>
           <br />
 
@@ -160,12 +167,12 @@
             Cadastrar
           </button>
         </form>
-
       </div>
     </div>
   </div>
   </div>
   </div>
+  <!-- ********** FINAL DO FORMULÁRIO DE CONTATO ******************************* ********************************************************************-->
 
   <!---- ********************* FOOTER *********************************************-->
   <footer class="bg-dark text-light mt-5 pt-5 pb-3">
@@ -213,6 +220,49 @@
   </footer>
 
   <!---- ********************* FINAL DO FOOTER *********************************************-->
+
+  <!-- *********************** ************************* *********************************
+   *********************************** MODAL *******************************************-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center" id="exampleModalLabel">ENTRE COM SEU EMAIL E SENHA.</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+
+
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <button type="submit" class="btn btn-primary mb-3 w-50">Entrar</button>
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Esqueceu o email ou a senha ?</label>
+            </div>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger w-25" data-bs-dismiss="modal"><i
+              class="bi bi-box-arrow-right"></i> Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- *********************** ************************* *********************************
+   ***********************************  FINAL DO MODAL ********************************-->
+
 
 </body>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
