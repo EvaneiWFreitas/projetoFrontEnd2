@@ -112,8 +112,13 @@
         class="bi bi-chat-right-dots-fill" viewBox="0 0 16 16">
         <path
           d="M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.586a1 1 0 0 1 .707.293l2.853 2.853a.5.5 0 0 0 .854-.353zM5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3 1a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
-      </svg> ENTRE EM CONTATO
+      </svg> CADASTRE-SE
     </h2>
+    <p class="text-center text-secondary">
+      Cadastre-se ou entre em contato conosco, nos enviando uma mensagem!<br/>
+      é necessário preencher todos os campos inclusive: email e senha e digitar<br/>
+      uma mensagem para nós!
+    </p>
 
     <div class="row">
       <div class=" container-fluid col-md-6 col-lg-4 w-75">
@@ -121,34 +126,39 @@
 
           <div class="mb-3">
             <label for="nome" class="form-label">Nome:</label>
-            <input type="text" name="nome" class="form-control w-100" id="nome" placeholder="Digite seu nome">
+            <input type="text" name="nome" class="form-control w-100" id="nome" placeholder="Digite seu nome" required>
           </div>
 
           <div class="mb-3">
             <label for="endereco" class="form-label">Endereço:</label>
             <input type="text" name="endereco" class="form-control w-100" id="endereco"
-              placeholder="Digite seu endreço">
+              placeholder="Digite seu endreço" required>
           </div>
 
           <div class="mb-3">
             <label for="bairro" class="form-label">Bairro:</label>
-            <input type="text" name="bairro" class="form-control w-100" id="bairro" placeholder="Digite seu bairro">
+            <input type="text" name="bairro" class="form-control w-100" id="bairro" placeholder="Digite seu bairro" required>
           </div>
 
           <div class="mb-3">
             <label for="telefone" class="form-label">Telefone:</label>
             <input type="text" name="telefone" class="form-control w-100" id="telefone"
-              placeholder="Digite seu telefone">
+              placeholder="Digite seu telefone" required>
           </div>
 
           <div class="mb-3">
             <label for="email" class="form-label">Email:</label>
-            <input type="email" name="email" class="form-control w-100" id="email" placeholder="Digite seu email">
+            <input type="email" name="email" class="form-control w-100" id="email" placeholder="Digite seu email" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Senha:</label>
+            <input type="password" name="password" class="form-control w-100" id="password" placeholder="Digite sua senha" required>
           </div>
 
           <div class="mb-3">
             <label for="cidade" class="form-label">Cidade:</label>
-            <input type="text" name="cidade" class="form-control w-100" id="cidade" placeholder="Digite sua cidade">
+            <input type="text" name="cidade" class="form-control w-100" id="cidade" placeholder="Digite sua cidade" required>
           </div>
 
           <div class="mb-3">
